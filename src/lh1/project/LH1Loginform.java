@@ -42,7 +42,7 @@ public class LH1Loginform extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(8, 199, 218));
 
         jLabel1.setFont(new java.awt.Font("Verdana", 1, 14)); // NOI18N
-        jLabel1.setText("  USERNAME");
+        jLabel1.setText("HALLO");
 
         jLabel2.setFont(new java.awt.Font("Verdana", 1, 14)); // NOI18N
         jLabel2.setText(" PASSWORD");
