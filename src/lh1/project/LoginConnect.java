@@ -6,7 +6,7 @@
 package lh1.project;
 
 import java.sql.*;
-import java.tuil.logging.Level;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
@@ -15,15 +15,15 @@ import java.util.logging.Logger;
  */
 public class LoginConnect 
 {
-    public static connection connectDB()
+    public static Connection connectDB()
     {
     Connection con=null;
-         try
-            {
-           con=DriveManager.getConnection("jdbc:derby://localhost:1527/ArtistDB", "Akumu", "Kaleidoscope");
-         } catch (SQLException ex)
+         try{
+           con=DriverManager.getConnection("jdbc:derby://localhost:1527/ArtistDB", "Akumu", "Kaleidoscope");
+         }catch (SQLException ex)
          {
-             Logger.getLogger(TABLET_RAAAAH.class.getName()).log(Level.SEVERE, null)
+             Logger.getLogger(LoginConnect.class.getName()).log(Level.SEVERE, null, ex);
          }
+         return con;
     }
 }
