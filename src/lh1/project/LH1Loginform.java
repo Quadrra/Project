@@ -90,7 +90,7 @@ public class LH1Loginform extends javax.swing.JFrame {
         jLabel3.setText("Artists Database Login");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 80, 312, -1));
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/lh1/project/KYs.png"))); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/lh1/project/IMG/KYs.png"))); // NOI18N
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         pack();
